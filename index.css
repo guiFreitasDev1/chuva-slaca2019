@@ -1,0 +1,230 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    --cor-primaria: #ED7839;
+    --cor-secundaria:  #FDF1EB;
+    --cor-lineMenu:#E7E7E7;
+    --cor-degrade: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+
+
+}
+.centro{
+    display: block;
+    width: 1920px;
+    margin:auto;
+}
+
+/* HEADER */
+
+
+.heading{
+    background-color: var(--cor-secundaria);
+    float: right;
+    height: 68px;
+    width: 80%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+   
+}
+header > div > p {
+    font-size: 0.8em;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    color:#725C5C;
+}
+header > div > h1{
+
+    font-size: 1.2em;
+    padding: 0px 10px;
+    font-family: sans-serif;
+    color: #725C5C;
+
+}
+.divh1Principal{
+    float: left;
+}
+
+.containerMenuLingua{
+    float: right; 
+    padding: 20px;
+}
+.menulingua{
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid black;
+    display: inline;
+    border-radius: 3px;
+       
+}
+
+.hotmail{
+    display: inline;
+    float: right;
+    padding: 0px 10px;
+    text-align: right;
+    
+}
+.hotmailBemVindo{
+    display: inline-block;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.fotoPerfil{
+    height: 43px;
+    width: 43px;
+    float: right;
+    
+}
+
+
+/* MENU */
+
+
+
+.slaca {
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    height: 68px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    text-align: center;    
+}
+.slacaH1{
+    text-align: center;
+    padding: 15px 0px;
+}
+.imagemSlaca{
+    height: 258px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+.divMenuSlaca{
+    height: 2508px;
+    width: 100%;
+    left: 0px;
+    margin-top: 0px;
+    border-radius: 0px;
+
+
+}
+.menuUl{
+    list-style: none;
+   
+}
+.menuP{
+   text-align: center;
+   font: 1em;
+   padding: 10px;
+   font-family: sans-serif;
+   border-bottom: 1px solid var(--cor-lineMenu);
+     
+}
+#meuPTrabalhos{
+    background-image: linear-gradient(to right , #EE7A3A 3%, #ffffff 1%);
+}
+.menuP:hover{
+    background-image: linear-gradient(to right , #EE7A3A 3%, #ffffff 1%);
+}
+.menuSlacaShadow{
+    display: inline-block;
+    width: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
+}
+/* MENU */
+
+/* Conteudo */
+.secConteudo{
+    
+    width: 20%;
+    height: 100%;
+}
+.conteudo{
+    float: right;
+    height: 100%;
+    width: 80%;
+    
+}
+.containerConteudo{
+    float: left;
+    width: 70%;
+}
+.conteudoH1{
+    color: var(--cor-primaria);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+    font-size: 1.5em;
+}
+/* Conteudo */
+
+
+/* Responsividade */
+
+@media (max-width: 1920px) {
+    .centro{
+        width: 1366px;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width: 1366px) 
+{
+    .centro{
+        width: 1280px;
+        margin: auto;
+    }
+    .conteudoH1{
+        color: var(--cor-primaria);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+        font-size: 1.2em;
+    }
+    
+}
+@media (max-width: 1280px)
+{
+    .imagemSlaca{
+        height: 200px;
+    }
+    .centro{
+        width: 960px;
+        margin: auto;
+    }
+    header > div > p {
+        font-size: 0.6em;
+        padding: 0px 10px;
+    }
+    header > div > h1{
+        font-size: 0.8em;
+        padding: 0px 10px;
+    }
+    .containerMenuLingua{
+        width:40% ;
+        padding: 15px 0px ;
+    }
+    .fotoPerfil{
+        padding: 0px 5px;
+    }
+    .menulingua{
+        font-size: 10px;
+    }
+    .hotmail{
+        padding: 0px;
+        margin: 0px;
+    }
+    .divh1Principal{
+        width: 60%;
+        padding: 10px 0px;
+
+    }
+} 
