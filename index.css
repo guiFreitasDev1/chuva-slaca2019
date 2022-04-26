@@ -2,41 +2,45 @@
     padding: 0px;
     margin: 0px;
 }
+
 :root {
     --cor-primaria: #ED7839;
-    --cor-secundaria:  #FDF1EB;
-    --cor-lineMenu:#E7E7E7;
+    --cor-secundaria: #FDF1EB;
+    --cor-lineMenu: #E7E7E7;
     --cor-degrade: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
 
 
 }
-.centro{
+
+.centro {
     display: block;
-    width: 1920px;
-    margin:auto;
+    width: 100%;
+    margin: auto;
 }
 
 /* HEADER */
 
 
-.heading{
+.heading {
     background-color: var(--cor-secundaria);
     float: right;
     height: 68px;
-    width: 80%;
+    width: 85%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
 
-   
+
 }
-header > div > p {
+
+header>div>p {
     font-size: 0.8em;
     padding: 5px 10px;
     font-family: sans-serif;
-    color:#725C5C;
+    color: #725C5C;
 }
-header > div > h1{
+
+header>div>h1 {
 
     font-size: 1.2em;
     padding: 0px 10px;
@@ -44,42 +48,45 @@ header > div > h1{
     color: #725C5C;
 
 }
-.divh1Principal{
+
+.divh1Principal {
     float: left;
 }
 
-.containerMenuLingua{
-    float: right; 
+.containerMenuLingua {
+    float: right;
     padding: 20px;
 }
-.menulingua{
+
+.menulingua {
     padding: 8px;
     text-align: center;
     font-size: 13px;
     border: 1px solid black;
     display: inline;
     border-radius: 3px;
-       
+
 }
 
-.hotmail{
+.hotmail {
     display: inline;
     float: right;
     padding: 0px 10px;
     text-align: right;
-    
+
 }
-.hotmailBemVindo{
+
+.hotmailBemVindo {
     display: inline-block;
     font-size: 12px;
     padding: 0px 10px;
 }
 
-.fotoPerfil{
+.fotoPerfil {
     height: 43px;
     width: 43px;
     float: right;
-    
+
 }
 
 
@@ -97,20 +104,23 @@ header > div > h1{
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    text-align: center;    
+    text-align: center;
 }
-.slacaH1{
+
+.slacaH1 {
     text-align: center;
     padding: 15px 0px;
 }
-.imagemSlaca{
+
+.imagemSlaca {
     height: 258px;
     width: 100%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
 }
-.divMenuSlaca{
+
+.divMenuSlaca {
     height: 2508px;
     width: 100%;
     left: 0px;
@@ -119,112 +129,220 @@ header > div > h1{
 
 
 }
-.menuUl{
+
+.menuUl {
     list-style: none;
-   
+
 }
-.menuP{
-   text-align: center;
-   font: 1em;
-   padding: 10px;
-   font-family: sans-serif;
-   border-bottom: 1px solid var(--cor-lineMenu);
-     
+
+.menuP {
+    text-align: center;
+    font: 1em;
+    padding: 10px;
+    font-family: sans-serif;
+    border-bottom: 1px solid var(--cor-lineMenu);
+
 }
-#meuPTrabalhos{
-    background-image: linear-gradient(to right , #EE7A3A 3%, #ffffff 1%);
+
+#meuPTrabalhos {
+    background-image: linear-gradient(to right, #EE7A3A 3%, var(--cor-secundaria) 5%);
 }
-.menuP:hover{
-    background-image: linear-gradient(to right , #EE7A3A 3%, #ffffff 1%);
+
+.menuP:hover {
+    background-color: var(--cor-secundaria);
 }
-.menuSlacaShadow{
+
+.menuSlacaShadow {
     display: inline-block;
     width: 100%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
 }
+
+.citarEsseTrab{
+    color: var(--cor-primaria);
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+.video{
+    padding: 20px 10px;
+    display: block;
+    margin: auto;
+}
+
 /* MENU */
 
 /* Conteudo */
-.secConteudo{
-    
-    width: 20%;
+.secConteudo {
+    width: 15%;
     height: 100%;
 }
-.conteudo{
+
+.conteudo {
     float: right;
     height: 100%;
-    width: 80%;
-    
+    width: 85%;
+
 }
-.containerConteudo{
+
+.containerConteudo {
     float: left;
     width: 70%;
 }
-.conteudoH1{
+
+.conteudoH1 {
     color: var(--cor-primaria);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
     font-size: 1.5em;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.logo{
+    height: 15px;
+    width: 15px;
+    left: 1015px;
+}
+
+.doiLogoButton {
+    height: 31px;
+    width: 43px;
+    top: 0px;
+    border-radius: 4px;
+    background-color: var(--cor-primaria);
+
+}
+
+.buttonEstrela {
+    height: 31px;
+    width: 43px;
+    top: 0px;
+    border-radius: 4px;
+    background-color: var(--cor-primaria);
+}
+
+.buttonDownload{
+    height: 31px;
+    width: 120px;
+    left: 842px;
+    top: 0px;
+    border-radius: 4px;
+    background-color: var(--cor-primaria);
+    color: white;
+    font-family: sans-serif;
+    
 }
 /* Conteudo */
+/* Detalhes*/
 
+.h2Aside{
+    background-color: var(--cor-secundaria);
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    left: 816px;
+    top: 73px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.conteudoDetalhes{
+    border: 1px solid black;
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    height: 364px;
+    margin-right: 50px; 
+}
+
+.pTresPrimeiros{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.autores{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #c4c4c4;
+}
+/* Detalhes*/
 
 /* Responsividade */
 
-@media (max-width: 1920px) {
-    .centro{
-        width: 1366px;
-        margin: auto;
-    }
-    
-}
 
-@media (max-width: 1366px) 
-{
-    .centro{
-        width: 1280px;
-        margin: auto;
-    }
-    .conteudoH1{
+
+@media (max-width: 1366px) {
+
+    .conteudoH1 {
         color: var(--cor-primaria);
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
         font-size: 1.2em;
     }
-    
+
 }
-@media (max-width: 1280px)
-{
-    .imagemSlaca{
+
+@media (max-width: 1280px) {
+    .imagemSlaca {
         height: 200px;
     }
-    .centro{
+    .classVideo{
+        width: 500px;
+        height: 300px;
+    }
+    .centro {
         width: 960px;
         margin: auto;
     }
-    header > div > p {
+
+    header>div>p {
         font-size: 0.6em;
         padding: 0px 10px;
     }
-    header > div > h1{
+
+    header>div>h1 {
         font-size: 0.8em;
         padding: 0px 10px;
     }
-    .containerMenuLingua{
-        width:40% ;
-        padding: 15px 0px ;
+
+    .containerMenuLingua {
+        width: 40%;
+        padding: 15px 0px;
     }
-    .fotoPerfil{
+
+    .fotoPerfil {
         padding: 0px 5px;
     }
-    .menulingua{
+
+    .menulingua {
         font-size: 10px;
     }
-    .hotmail{
+
+    .hotmail {
         padding: 0px;
         margin: 0px;
     }
-    .divh1Principal{
+
+    .divh1Principal {
         width: 60%;
         padding: 10px 0px;
 
     }
-} 
+    .h2Aside{
+        background-color: var(--cor-secundaria);
+        display: inline-block;
+        height: 30px;
+        width: 200px;
+        left: 816px;
+        top: 73px;
+        padding: 10px;
+        border-radius: 10px 10px 0px 0px;
+    
+    }
+    .conteudoDetalhes{
+        border: 1px solid black;
+        display: inline-block;
+        width: 200px;
+        padding: 8px;
+        height: 364px;
+        margin-right: 0px; 
+    }
+}
