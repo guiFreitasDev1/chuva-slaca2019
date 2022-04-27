@@ -164,10 +164,14 @@ header>div>h1 {
     font-weight: 600;
     padding: 10px;
 }
-.video{
-    padding: 20px 10px;
-    display: block;
-    margin: auto;
+.imagemVideo{
+    height: 439px;
+width: 784px;
+left: 2px;
+top: 73px;
+border-radius: 5px;
+margin: auto;
+display: block;
 }
 
 /* MENU */
@@ -232,6 +236,86 @@ header>div>h1 {
     font-family: sans-serif;
     
 }
+/* Resumo/discussoes*/
+.resumo, .discussoes{
+    background-color: var(--cor-secundaria);
+    display: inline-block;
+    height: 30px;
+    width: 95%;
+    left: 816px;
+    top: 73px;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: sans-serif;
+
+}
+.textResumo, .textDiscussoes{
+    border: 1px solid var(--cor-lineMenu);
+    width: 95%;
+    left: 816px;
+    top: 73px;
+    padding: 9px;
+    margin: 0px 10px 0px 10px;
+}
+.p{
+    font-family: sans-serif;
+    text-align: left;
+    text-indent: 1.5em;
+    padding: 10px;
+    
+}
+#mais{
+    display: none;
+}
+#btnLeiaMais{
+    background-color: var(--cor-primaria);
+    border: 3px solid var(--cor-lineMenu);
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+
+}
+#btnLeiaMais:hover{
+    background-color: #c26939;
+}
+
+.h3Discussoes{
+    color: var(--cor-primaria);
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.imgDiscussoes1{
+   margin-left: 40%;
+}
+    .imgDiscussoes1, .imgDiscussoes2, .imgDiscussoes3{
+        margin-right: 20px;
+    }
+#lampada{
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+.buttonTopico{
+    display: block;
+    margin: auto;
+    padding: 6px;
+    color: white;
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-lineMenu);
+    border-radius: 5px;
+}
+.buttonTopico:hover{
+    background-color: #c26939;
+}
+.linha{
+    padding: 10px;
+    border-bottom: 1px solid var(--cor-lineMenu);
+}
+
+
+/* Resumo/discussoes*/
 /* Conteudo */
 /* Detalhes*/
 
@@ -239,30 +323,53 @@ header>div>h1 {
     background-color: var(--cor-secundaria);
     display: inline-block;
     height: 30px;
-    width: 200px;
+    width: 198px;
     left: 816px;
     top: 73px;
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
+    font-family: sans-serif;
+
 
 }
 .conteudoDetalhes{
-    border: 1px solid black;
+    border: 1px solid var(--cor-lineMenu);
     display: inline-block;
     width: 200px;
     padding: 8px;
     height: 364px;
     margin-right: 50px; 
+    overflow-y: scroll;
 }
-
+.conteudoDetalhes::-webkit-scrollbar{
+    width: 5px;
+    border: 1px solid var(--cor-lineMenua);
+}
+.conteudoDetalhes::-webkit-scrollbar-thumb{
+    background-color: var(--cor-lineMenu);
+    border-radius: 3px;
+    
+}
 .pTresPrimeiros{
     font-size: 13px;
     font-family: sans-serif;
 }
 .autores{
-    font-size: 13px;
+    font-size: 14px;
     font-family: sans-serif;
-    color: #c4c4c4;
+    color: #777777;
+}
+.univesidades{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #adadad;
+}
+.aBiografia{
+    text-decoration: none;
+    
+}
+.autores:hover{
+    color: #ED7839;
 }
 /* Detalhes*/
 
@@ -277,14 +384,18 @@ header>div>h1 {
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
         font-size: 1.2em;
     }
-
+    .imagemVideo{
+        width: 700px;
+        height: 400px;
+    }
 }
 
 @media (max-width: 1280px) {
     .imagemSlaca {
-        height: 200px;
+        height: 150px;
+
     }
-    .classVideo{
+    .imagemVideo{
         width: 500px;
         height: 300px;
     }
@@ -345,4 +456,12 @@ header>div>h1 {
         height: 364px;
         margin-right: 0px; 
     }
+    .resumo, .textResumo{
+        width: 90%;
+    
+    }
+    .imgDiscussoes1{
+        margin-left: 34%;
+     }
+     
 }
