@@ -47,3 +47,16 @@ function enviarDisc(){
 
 
 }
+
+function comentario(){
+    sumirComentario = document.querySelector('.sumirComentario')
+    buttonLerMaisComentarios = document.querySelector('.buttonLerMaisComentarios')
+
+    if(sumirComentario.style.display === 'none'){
+        sumirComentario.style.display = 'inline'
+        buttonLerMaisComentarios.innerHTML = "Ler menos"
+    }else{
+        sumirComentario.style.display = 'none'
+        buttonLerMaisComentarios.innerHTML = "Leia mais"
+}
+}
