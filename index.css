@@ -12,9 +12,11 @@
 
 }
 
-
-
-
+.centro {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
 
 /* HEADER */
 
@@ -119,7 +121,7 @@ header>div>h1 {
 }
 
 .divMenuSlaca {
-    
+    height: 1450px;
     width: 100%;
     left: 0px;
     margin-top: 0px;
@@ -154,7 +156,6 @@ header>div>h1 {
     display: inline-block;
     width: 100%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
-    height: 100%;
 }
 
 .citarEsseTrab {
@@ -173,24 +174,19 @@ header>div>h1 {
     margin: auto;
     display: block;
 }
-.secMenu {
-    width: 15%;
-    height: 100%;
-    float: left;
-}
+
 /* MENU */
 
 /* Conteudo */
-
-.classeMain{
-    width: auto;
+.secConteudo {
+    width: 15%;
+    height: 100%;
 }
+
 .conteudo {
     float: right;
     height: 100%;
     width: 85%;
-    left: 0px;
-    top: 0px;
 
 }
 
@@ -266,12 +262,12 @@ header>div>h1 {
     top: 73px;
     padding: 9px;
     margin: 0px 10px 0px 10px;
+    
 
 }
+
 .textDiscussoes {
-    height: 500px;
-}
-.textDiscussoes {
+    height: 300px;
     overflow-y: scroll;
 }
 
@@ -603,21 +599,14 @@ header>div>h1 {
 }
 
 /* Detalhes*/
-/*FOOTER*/
 
 
+/*FOOOTER*/
 .footer2{
-   display: block;
-    height: 70%;
-    padding: 10px;
-   
+    width: 70%;
 }
 
-footer{
-    float: left;
-}
-
-/*FOOTER*/
+/*FOOOTER*/
 /* Responsividade */
 
 
@@ -634,10 +623,6 @@ footer{
         width: 700px;
         height: 400px;
     }
-    .imagemSlaca {
-        height: 170px;
-
-    }
 }
 
 @media (max-width: 1280px) {
@@ -650,7 +635,7 @@ footer{
         width: 500px;
         height: 300px;
     }
-    
+
     .centro {
         width: 960px;
         margin: auto;
@@ -720,10 +705,5 @@ footer{
     .imgDiscussoes1 {
         margin-left: 34%;
     }
-    footer{
-        width: 500px;
-    }
-    .footer2{
-        width: 900px;
-    }
+
 }

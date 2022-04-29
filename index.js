@@ -2,17 +2,20 @@ function leiaMais(){
     var pontos = document.getElementById("pontos")
     var maisTexto = document.getElementById("mais")
     var btnLeiaMais = document.getElementById("btnLeiaMais")
+    var menuSlacaShadow = document.querySelector('.menuSlacaShadow')
 
     if(pontos.style.display === "none"){
         pontos.style.display = "inline";
         maisTexto.style.display = "none";
         btnLeiaMais.innerHTML="Leia Mais";
+        menuSlacaShadow.style.height = '1450px'
 
     }
     else{
         pontos.style.display = "none";
         maisTexto.style.display = "inline";
         btnLeiaMais.innerHTML="Leia menos";
+        menuSlacaShadow.style.height = '1870px'
     }
 }
 
@@ -47,7 +50,6 @@ function enviarDisc(){
 
 
 }
-
 function comentario(){
     sumirComentario = document.querySelector('.sumirComentario')
     buttonLerMaisComentarios = document.querySelector('.buttonLerMaisComentarios')
